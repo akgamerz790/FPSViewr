@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "fpsviewr",
+	"version": "${version}",
+	"name": "FPSViewr",
+	"description": "This Mod adds a Customizable FPS Display to the Game!",
+	"authors": [
+		"akgamerz_790"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/akgamerz790/FPSViewr",
+		"discord": "https://discord.com/users/1180147821412876420"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/fpsviewr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.akgamerz_790.fpsviewr.FPSViewr"
+		]
+	},
+	"mixins": [
+		"fpsviewr.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
