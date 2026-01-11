@@ -16,10 +16,10 @@
 	"icon": "assets/fpsviewr/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"dev.akgamerz_790.fpsviewr.FPSViewr"
-		]
-	},
+        "client": [
+            "dev.akgamerz_790.fpsviewr.FpsHudClient"
+        ]
+    },
 	"mixins": [
 		"fpsviewr.mixins.json"
 	],
