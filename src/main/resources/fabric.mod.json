@@ -20,9 +20,6 @@
             "dev.akgamerz_790.fpsviewr.FpsHudClient"
         ]
     },
-	"mixins": [
-		"fpsviewr.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~1.21.5",
